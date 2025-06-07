@@ -1,0 +1,39 @@
+.data
+nombre: .ascii "ingrese nombre"
+facil: .ascii "- - -\n"
+       .ascii "- - -\n"
+       .ascii "- - -\n"
+longitud_facil=.-facil
+medio: .ascii "- - - -\n"
+       .ascii "- - - -\n"
+       .ascii "- - - -\n"
+       .ascii "- - - -\n"
+longitud_medio=.-medio
+dificil: .ascii "- - - - -\n"
+         .ascii "- - - - -\n"
+         .ascii "- - - - -\n"
+         .ascii "- - - - -\n"
+         .ascii "- - - - -\n"
+longitud_dificil=.-dificil
+/*archivo:*/
+.text
+imprimir:
+        .fnstart
+        push {lr}
+
+        mov r7,#4
+        mov r0,#1
+
+        swi 0
+
+        pop {lr}
+        bx lr
+        .fnend
+pedir_nombre:           /*pide el nombre al usuario*/
+        .fnstart
+        push {lr}
+        mov r7 ,#4
+        mov r0,#1
+        ldr r1,=nombre
+        mov r2,#56
+        swi 0
