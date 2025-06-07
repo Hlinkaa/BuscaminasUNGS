@@ -10,18 +10,18 @@ En este trabajo se desarrollarán e integrarán los conceptos de arquitectura AR
 abordados durante la segunda parte de la materia, posterior al primer parcial. El
 foco estará puesto especialmente en los siguientes temas:
 
-  ● Manejo de datos en registros, pila y memoria
-  ● Modos de direccionamiento
-  ● Llamadas a procedimientos definidos por el usuario e interrupciones del
+  - Manejo de datos en registros, pila y memoria
+  - Modos de direccionamiento
+  - Llamadas a procedimientos definidos por el usuario e interrupciones del
   sistema
 
 El proyecto se plantea en el contexto de un videojuego ejecutado desde la consola o
 terminal. Este entorno, además, permitirá retomar y aplicar conceptos ya vistos en la
 primera parte del curso, tales como:
 
-  ● Codificación de caracteres ASCII
-  ● Conversión entre sistemas numéricos (Decimal ↔ Binario)
-  ● Operaciones en complemento a dos (A2)
+  - Codificación de caracteres ASCII
+  - Conversión entre sistemas numéricos (Decimal ↔ Binario)
+  - Operaciones en complemento a dos (A2)
   
 # Producto final de la actividad
 
