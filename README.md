@@ -32,14 +32,14 @@ desarrollos en este entorno.
 
 # Evaluación
 
-● El nombre del archivo entregado debe seguir el formato:
+- El nombre del archivo entregado debe seguir el formato:
 TP_Final_Orga_NumeroDeGrupo.pdf
-● Fecha límite de entrega: (consultar en Moodle)
-● Modo y espacio de entrega: (consultar en Moodle)
+- Fecha límite de entrega: (consultar en Moodle)
+- Modo y espacio de entrega: (consultar en Moodle)
 
 # Enunciado del TP
 
-## El Juego del BUSCAMINAS
+# El Juego del BUSCAMINAS
 
 El juego del Buscaminas consiste en una cuadrícula de casillas que ocultan minas
 distribuidas aleatoriamente. El objetivo del jugador es destapar todas las casillas
