@@ -37,9 +37,9 @@ TP_Final_Orga_NumeroDeGrupo.pdf
 - Fecha límite de entrega: (consultar en Moodle)
 - Modo y espacio de entrega: (consultar en Moodle)
 
-# Enunciado del TP
+ # Enunciado del TP
 
-# El Juego del BUSCAMINAS
+ **El Juego del BUSCAMINAS**
 
 El juego del Buscaminas consiste en una cuadrícula de casillas que ocultan minas
 distribuidas aleatoriamente. El objetivo del jugador es destapar todas las casillas
@@ -47,7 +47,7 @@ que no contienen minas, utilizando como guía la cantidad de minas adyacentes
 reveladas en cada jugada. Si se selecciona una casilla con una mina, el jugador
 pierde la partida.
 
-# Implementación en ARM
+**Implementación en ARM**
 
 Debido a las limitaciones gráficas del sistema, el mapa será representado utilizando
 caracteres ASCII, y la selección de casillas se realizará ingresando por teclado la
@@ -89,7 +89,7 @@ Es obligatorio escribir la lógica general del programa en forma de pseudocódig
 antes de su implementación. Este pseudocódigo deberá ser discutido con el docente
 durante la instancia de control de avance, según el calendario de la comisión.
 
-# Subrutinas mínimas requeridas:
+**Subrutinas mínimas requeridas**:
 *
 - leer_ranking abre el archivo .txt
 - escribir_ranking escribe dentro del archivo de ranking
@@ -109,13 +109,13 @@ durante la instancia de control de avance, según el calendario de la comisión.
 - pasar_numero_a_ascii pasa un número a caracter ascii
 - pasar_ascii_a_numero pasa un caracter ascii a numero
 
-# Funcionalidades extra (opcionales)
+**Funcionalidades extra (opcionales)**
 
-● Uso de colores en la terminal para mejorar la visualización
-● Posibilidad de personalizar la cantidad de minas
-● Elección de otro tamaño de tablero.
+- Uso de colores en la terminal para mejorar la visualización
+- Posibilidad de personalizar la cantidad de minas
+- Elección de otro tamaño de tablero.
 
-# Comentarios generales
+**Comentarios generales**
 
 Es fundamental consultar el pseudocódigo con su docente antes de comenzar con
 la implementación en ensamblador. Recomendamos revisar el calendario
